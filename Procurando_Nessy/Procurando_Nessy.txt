@@ -1,0 +1,30 @@
+    Código do desafio: ProcurandoNessy
+
+Em julho de 2003, a BBC relatou uma extensa investigação no lago Ness com uma equipe da BBC, usando um sonar separado por 600 vigas, porém, não encontrou nenhum vestígio de qualquer monstro no lago (isto é, qualquer grande animal, conhecido ou desconhecido). A equipe da BBC então concluiu que Nessy não existe. Agora queremos repetir o experimento.
+
+Dada uma grade de n linhas e m colunas que representam o lago, Exemplo: n = 6, m = 10000, encontre o número mínimo s de vigas de sonar que você deve colocar no lago de tal forma que podemos controlar todas as posições da grade com as seguintes condições:
+
+    Um sonar ocupa uma posição na grade; A viga do sonar controla sua própria célula e as células contíguas;
+    As células da fronteira não precisam ser controladas, porque Nessy não pode se esconder lá(ele é muito grande).
+
+Exemplo:
+
+Onde X representa um sonar, e as células sombreadas são controlados pelas suas vigas de sonda; a última figura dá-nos uma solução.
+
+Entrada
+A primeira linha de entrada deve conter um inteiro t , indicando o número de casos de teste. Para cada caso de teste, devem ser informado dois números , exemplo n = 6, m = 10000, ou seja, o tamanho do lago (n linhas e m colunas)
+
+Saída
+Para cada teste, a saída deve consistir de uma linha que mostra o número mínimo de sonares que verifica as condições acima.
+
+Exemplo de Entrada:
+3
+6 6
+7 7
+9 13
+
+Exemplo de Saída:
+4
+4
+12
+
